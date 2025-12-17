@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* bandeau-bg-checkin */
+.bandeau-bg-checkin {
+  background-image: url("../img/check-in.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 0;
+  z-index: 1;
+  height: 88vh;
+}
+
+h1 {
+  color: #333;
+}
+
+footer {
+  background-color: #dfdcdc;
+  text-align: left;
+  display: inline-block;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 99%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.reservation-block h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.reservation-block p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.reservation-block form label {
+    font-weight: 500;
+}
+
+.btn-dark {
+    background-color: #1f1f1f;
+    border: none;
+    padding: 10px;
+}
