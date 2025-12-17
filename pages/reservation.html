@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/reservation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="icon" href="../img/logo_Hotel_Chambord-ico.png" />
+    <title>HOTEL CHAMBORD | Reservation</title>
+  </head>
+  <body>
+    <!-- Header avec le logo et le menu de navigation -->
+    <header class="">
+      <div class="bandeau-bg-checkin"></div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top shadow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><img src="../img/logo_Hotel_Chambord-all.png" alt="" class="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse width-800"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/chambres.html">Chambres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/restaurant.html">Restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/spa.html">Spa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/avis.html">Avis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" method="get">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Rechercher"
+              aria-label="Search"
+            />
+            <button class="search-item btn" type="submit" aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="container my-5">
+
+    <section class="reservation-block mb-5">
+        <h2 class="text-center">Réservation des Chambres</h2>
+        <p class="text-center">Réservez votre séjour à l'Hôtel Chambord en quelques clics.</p>
+
+        <form class="mx-auto" style="max-width: 600px;">
+            <label>Type de chambre</label>
+            <select class="form-select mb-3">
+                <option selected>Choisissez une option</option>
+                <option>Classique</option>
+                <option>Confort</option>
+                <option>Suite</option>
+            </select>
+
+            <label>Date d'arrivée</label>
+            <input type="date" class="form-control mb-3">
+
+            <label>Date de départ</label>
+            <input type="date" class="form-control mb-3">
+
+            <button class="btn btn-dark w-100">Réserver</button>
+        </form>
+    </section>
+
+    <section class="reservation-block mb-5">
+        <h2 class="text-center">Réservation des Soins</h2>
+        <p class="text-center">Réservez votre soin au Spa pour une expérience relaxante.</p>
+
+        <form class="mx-auto" style="max-width: 600px;">
+            <label>Type de soin</label>
+            <select class="form-select mb-3">
+                <option selected>Choisissez une option</option>
+                <option>Massage Relaxant</option>
+                <option>Soin du visage</option>
+                <option>Hammam</option>
+            </select>
+
+            <label>Date</label>
+            <input type="date" class="form-control mb-3">
+
+            <label>Heure</label>
+            <input type="time" class="form-control mb-3">
+
+            <button class="btn btn-dark w-100">Réserver</button>
+        </form>
+    </section>
+
+    <section class="reservation-block mb-5">
+        <h2 class="text-center">Réservation d'une table</h2>
+        <p class="text-center">Réservez votre table au restaurant de l'Hôtel Chambord.</p>
+
+        <form class="mx-auto" style="max-width: 600px;">
+            <label>Nombre de personnes</label>
+            <select class="form-select mb-3">
+                <option selected>Choisissez</option>
+                <option>1 personne</option>
+                <option>2 personnes</option>
+                <option>3 personnes</option>
+                <option>4 personnes</option>
+            </select>
+
+            <label>Date</label>
+            <input type="date" class="form-control mb-3">
+
+            <label>Heure</label>
+            <input type="time" class="form-control mb-3">
+
+            <button class="btn btn-dark w-100">Réserver</button>
+        </form>
+    </section>
+  </main>
+</body>
+</html>
